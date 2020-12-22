@@ -1,7 +1,7 @@
 ---
 title: HackTheBox - Blocky
 date: 2020-12-22 00:17:00 +0100
-categories: [Hackthebox walkthroughs]
+categories: [Hackthebox walkthroughs, Linux, Easy]
 tags: [htb-linux-easy, minecraft server, wordpress, java, decompilation, jd-gui, sudo weak configuration, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/blocky/Blocky.png 
 ---
