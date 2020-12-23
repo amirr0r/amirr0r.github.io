@@ -1,5 +1,5 @@
 ---
-title: HackTheBox - Mirai
+title: HackTheBox - Shocker
 date: 2020-12-23 13:32:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
 tags: [htb-linux-easy, shellshock, metasploit, meterpreter, gtfobins, writeup, oscp-prep]
