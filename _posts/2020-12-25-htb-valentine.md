@@ -2,7 +2,7 @@
 title: HackTheBox - Valentine
 date: 2020-12-25 20:45:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, nmap scan vuln, CVE-2014-0160, heartbleed, tmux, writeup, oscp-prep]
+tags: [htb-linux-easy, nmap scan vuln, CVE-2014-0160, heartbleed, linpeas, tmux, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/valentine/valentine.png
 ---
 
