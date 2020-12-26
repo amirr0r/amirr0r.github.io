@@ -2,7 +2,7 @@
 title: HackTheBox - SwagShop
 date: 2020-12-26 18:10:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, Magento, fixing exploit, SQLi, linpeas, sudo weak configuration, vi, writeup, oscp-prep]
+tags: [htb-linux-easy, Magento, e-commerce, SQLi, chaining exploits, fixing exploit, linpeas, sudo weak configuration, vi, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/swagshop/SwagShop.png
 ---
 
