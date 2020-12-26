@@ -2,7 +2,7 @@
 title: HackTheBox - Shocker
 date: 2020-12-23 13:32:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, dirb, cgi-bin, shellshock, metasploit, meterpreter, gtfobins, writeup, oscp-prep]
+tags: [htb-linux-easy, dirb, cgi-bin, shellshock, CVE-2014-6271, metasploit, meterpreter, gtfobins, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/shocker/shocker.png
 ---
 
@@ -90,5 +90,6 @@ ___
 
 ## Useful links
 
+- [CVE-2014-6271](https://nvd.nist.gov/vuln/detail/CVE-2014-6271#vulnCurrentDescriptionTitle)
 - [Exploit Shellshock on a Web Server Using Metasploit](https://null-byte.wonderhowto.com/how-to/exploit-shellshock-web-server-using-metasploit-0186084/)
 - [GTFObins](https://gtfobins.github.io/gtfobins/perl/)
