@@ -153,7 +153,7 @@ I didn't get the version but there are multiple exploits out here:
 
 ![searchsploit](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/frolic/playsms-searchsploit.png)
 
-### Metasploit
+### reverse shell (metasploit)
 
 Feeling lazy, so I decided to use `metasploit`:
 
@@ -358,9 +358,7 @@ AAAAAAAAYBAAAJAEAAAeAAAALwAAAAQAAAAQAAAACQAAAAMAAAAAAAAAAAAAAPAUAABmAgAAAAAA
 AAAAAAABAAAAAAAAAA==
 ```
 
-### ROP
-
-#### Architecture
+### Architecture
 
 First thing first, what is the context ? What kind of architecture are we dealing with ?
 
@@ -381,7 +379,7 @@ $ cat /proc/sys/kernel/randomize_va_space
 Fine, it is not enabled. 
 
 
-#### Using a decompiler
+### Using a decompiler
 
 I passed the binary to `ghidra`, and we see that `strcpy` is called with an unchecked parameter. 
 
@@ -392,19 +390,19 @@ We're facing with a typical buffer overflow challenge.
 ![ghidra vuln](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/frolic/rop-decompiled-vuln.png)
 
 
-#### checksec
+### checksec
 
 Then, let's run `checksec` within `gdb-peda`:
 
 ![checksec](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/frolic/checksec.png)`
 
-#### Calculating the offset
+### Calculating the offset
 
 ![gdb](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/frolic/gdb-peda.png)
 
 Our goal is to gain an access to root shell, so we have to find a way to call the `system` function with `"/bin/sh"` as an argument. Here are the steps:
 
-#### Libc address
+### Libc address
 
 1. Get libc address (`0xb7e19000`) using `ldd`:
 
@@ -415,7 +413,7 @@ $ ldd rop
         /lib/ld-linux.so.2 (0xb7fdb000)
 ```
 
-#### `system` and `exit` addresses
+### `system` and `exit` addresses
 
 2. Locate the addresses of `system` (`0x0003ada0`) and `exit` (`0x0002e9d0`) functions: 
 
@@ -444,7 +442,7 @@ $ readelf -s /lib/i386-linux-gnu/libc.so.6 | grep -i exit
   2406: 000f4c80     2 FUNC    GLOBAL DEFAULT   13 __cyg_profile_func_exit@@GLIBC_2.2
 ```
 
-#### `"/bin/sh"` address
+### `"/bin/sh"` address
 
 3. Final thing, we need a strings that contains `"/bin/sh"` (`0x15ba0b`)
 
@@ -453,7 +451,7 @@ $ strings -atx /lib/i386-linux-gnu/libc.so.6 | grep -i "/bin/sh"
  15ba0b /bin/sh
 ```
 
-#### Payload
+### Payload
 
 `exploit.py` prepares our payload:
 
