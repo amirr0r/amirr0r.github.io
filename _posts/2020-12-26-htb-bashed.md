@@ -2,7 +2,7 @@
 title: HackTheBox - Bashed
 date: 2020-12-26 23:59:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, phpbash, reverse shell, sudo weak configuration, writeup, oscp-prep]
+tags: [htb-linux-easy, phpbash, reverse-shell, sudo weak configuration, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/bashed/Bashed.png
 ---
 
