@@ -142,7 +142,7 @@ Because of the _"creds for the admin THING:"_ in **creds.txt**, I tried the subd
 
 ![admin panel](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/admin-panel.png)
 
-We're successfully logged in with the credentials found via [smb](#smb-ports-139-445), but:
+We're successfully logged in with the credentials found via [smb](#), but:
 
 ![admin panel successfully logged in](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/success.png)
 
@@ -233,7 +233,7 @@ I looked for hidden directories in order to retrieve the image that I uploaded b
 
 ### administrator1.friendzone.red
 
-The credentials found via [smb](#smb-ports-139-445) worked as well on this second admin panel:
+The credentials found via [smb](#) worked as well on this second admin panel:
 
 ![second admin panel](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/admin1.png)
 
@@ -266,7 +266,7 @@ ___
 
 So far, we noticed that:
 
-- We can write files in `Development` shared directory. (See [smb](#smb-ports-139-445) chapter) 
+- We can write files in `Development` shared directory. (See [smb](#) chapter) 
 - We can read php pages from `https://administrator1.friendzone.red/dashboard.php?image_id=b.jpg&pagename=<PHP PAGE>`.
 
 ### reverse shell
