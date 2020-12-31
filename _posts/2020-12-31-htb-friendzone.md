@@ -243,7 +243,7 @@ The credentials found via [smb](#smb-ports-139--445) worked as well on this seco
 
 ![smart photos](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/admin1-smart-photos.png)
 
-I filled the parameters `image_id` and `pagename` with the filename and timestamp I'v got in response when I uploaded an image in [uploads.friendzone.red](#uploads-friendzone-red).
+I filled the parameters `image_id` and `pagename` with the filename and timestamp I'v got in response when I uploaded an image in [uploads.friendzone.red](#uploadsfriendzonered).
 
 ![bug](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/admin1-smart-photos-bug.png)
 
@@ -321,7 +321,7 @@ a9ed20acecd6c5b6b52f474e15ae9a11
 
 ![linpeas-writable-files](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/linpeas-writable-files.png)
 
-Since our current user has not high privileges, we're running [pspy]((https://github.com/DominicBreuker/pspy)) to identify cron jobs that we don't have permission to see:
+Since our current user has not high privileges, we're running [pspy](https://github.com/DominicBreuker/pspy) to identify cron jobs that we don't have permission to see:
 
 ![pspy](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/pspy.png)
 
