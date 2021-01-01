@@ -2,7 +2,7 @@
 title: HackTheBox - Postman
 date: 2021-01-01 01:25:15 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, redis, ssh2john, John The ripper, miniserv, webmin, CVE-2019-12840, metasploit, writeup, oscp-prep]
+tags: [htb-linux-easy, redis, ssh2john, John The Ripper, miniserv, webmin, CVE-2019-12840, metasploit, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/postman/Postman.png
 ---
 
