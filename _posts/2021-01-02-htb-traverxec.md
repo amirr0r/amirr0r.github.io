@@ -2,7 +2,7 @@
 title: HackTheBox - Traverxec
 date: 2021-01-02 16:37:46 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, nostromo, RCE, CVE-2019-16278, metasploit, reverse-shell, password "cracking", hashcat, rabbit hole, ssh2john, John The Ripper, sudo misconfiguration, gtfobins, journalctl, less, shrink terminal, writeup, oscp-prep]
+tags: [htb-linux-easy, nostromo, RCE, CVE-2019-16278, metasploit, reverse-shell, password cracking, hashcat, rabbit hole, ssh2john, John The Ripper, sudo misconfiguration, gtfobins, journalctl, less, shrink terminal, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/traverxec/Traverxec.png
 ---
 
