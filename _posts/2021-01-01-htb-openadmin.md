@@ -2,7 +2,7 @@
 title: HackTheBox - OpenAdmin
 date: 2021-01-01 23:21:04 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy,OpenNetAdmin, RCE, reverse-shell, linpeas, plain text password, MySQL, password "cracking", hashcat, brute-force, medusa, hydra, ssh port forwarding, ssh2john, John The Ripper, sudo weak configuration, gtfobins, nano, writeup, oscp-prep]
+tags: [htb-linux-easy,OpenNetAdmin, RCE, reverse-shell, linpeas, plain text password, MySQL, password "cracking", hashcat, brute-force, medusa, hydra, ssh port forwarding, ssh2john, John The Ripper, sudo misconfiguration, gtfobins, nano, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/openadmin/OpenAdmin.png
 ---
 

@@ -2,7 +2,7 @@
 title: HackTheBox - Nibbles
 date: 2020-12-23 23:37:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, nibbleblog, default credentials, CVE-2015-6967, metasploit, meterpreter, reverse-shell, sudo weak configuration, writeup, oscp-prep]
+tags: [htb-linux-easy, nibbleblog, default credentials, CVE-2015-6967, metasploit, meterpreter, reverse-shell, sudo misconfiguration, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/nibbles/nibbles.png
 ---
 
