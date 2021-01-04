@@ -2,7 +2,7 @@
 title: HackTheBox - Sunday
 date: 2021-01-04 12:13:03 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, Solaris, SunOS, finger, guessing, hashcat, sudo misconfiguration, GTFOBins, wget, writeup, oscp-prep]
+tags: [htb-linux-easy, Solaris, SunOS, finger, guessing, patator, hashcat, sudo misconfiguration, GTFOBins, wget, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/sunday/Sunday.png
 ---
 
