@@ -7,7 +7,7 @@ if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $OS ]; then
     MAJOS=`echo "$(tr '[:lower:]' '[:upper:]' <<< ${OS:0:1})${OS:1}"`; # linux -> Linux
     MAJLEVEL=`echo "$(tr '[:lower:]' '[:upper:]' <<< ${LEVEL:0:1})${LEVEL:1}"`; # easy -> Easy
     # 1. Create img folder
-    mkdir ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
+    mkdir -p ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
     # 2. Copy screenshots into img folder
     cp $HTB/machines/$MAJOS/$VM/img/*.png ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
     # 3. Create WU post
