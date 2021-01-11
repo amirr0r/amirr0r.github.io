@@ -2,7 +2,7 @@
 title: VulnHub - Stapler
 date: 2021-01-11 13:13:54 +0100
 categories: [VulnHub walkthroughs, Linux]
-tags: [vulnhub-linux, nikto, gobuster, wordpress, wpscan, brute-force, reverse-shell, searchsploit, CVE-2016-4557, kernel exploit, plain text password, writeup, oscp-prep]
+tags: [vulnhub-linux, netdiscover, nikto, gobuster, wordpress, wpscan, brute-force, reverse-shell, searchsploit, CVE-2016-4557, kernel exploit, plain text password, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/vulnhub/stapler/Stapler.png
 ---
 
