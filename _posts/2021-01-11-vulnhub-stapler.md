@@ -3,14 +3,14 @@ title: VulnHub - Stapler
 date: 2021-01-11 13:13:54 +0100
 categories: [VulnHub walkthroughs, Linux]
 tags: [vulnhub-linux, nikto, gobuster, wordpress, wpscan, brute-force, reverse-shell, searchsploit, CVE-2016-4557, kernel exploit, plain text password, writeup, oscp-prep]
-image: https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/Stapler.png
+image: https://amirr0r.github.io/assets/img/vulnhub/stapler/Stapler.png
 ---
 
 ## Enumeration
 
 ### `netdiscover`
 
-![netdiscover](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/netdiscover.png)
+![netdiscover](https://amirr0r.github.io/assets/img/vulnhub/stapler/netdiscover.png)
 
 `netdiscover` is an active/passive ARP reconnaissance tool that allows us to identify which machines in our local network. 
 
@@ -106,7 +106,7 @@ There is a bunch of open ports such as **21** (FTP), **22** (SSH), **53** (DNS),
 
 ### `nmap` vuln scan
 
-![nmap scan vuln](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/nmap-vuln-scan.png)
+![nmap scan vuln](https://amirr0r.github.io/assets/img/vulnhub/stapler/nmap-vuln-scan.png)
 
 Among the vulnerabilities reported by `nmap`, many are about DOS attacks (like Slowloris). However, However, one flaw stands out: Samba seems vulnerable to remote code execution (`CVE-2009-3103`).
 
@@ -114,27 +114,27 @@ Among the vulnerabilities reported by `nmap`, many are about DOS attacks (like S
 
 Nevertheless, if we enable OS detection during the scan, we can see the target is **Linux server** so it might be not vulnerable to the CVE we saw earlier: 
 
-![nmap-os-detection](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/nmap-os-detection.png)
+![nmap-os-detection](https://amirr0r.github.io/assets/img/vulnhub/stapler/nmap-os-detection.png)
 
 ### HTTP (Port 80)
 
-![PHP cli server 5.5 (port 80)](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/80.png)
+![PHP cli server 5.5 (port 80)](https://amirr0r.github.io/assets/img/vulnhub/stapler/80.png)
 
 #### `gobuster`
 
-![gobuster](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/80-gobuster.png)
+![gobuster](https://amirr0r.github.io/assets/img/vulnhub/stapler/80-gobuster.png)
 
 Nothing looks interesting yet. Let's check out other ports.
 
 #### `nikto`
 
-![nikto](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/80-nikto.png)
+![nikto](https://amirr0r.github.io/assets/img/vulnhub/stapler/80-nikto.png)
 
 ### FTP (port 21)
 
 We can log in as `anonymous` within `ftp`:
 
-![FTP](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/21-ftp.png)
+![FTP](https://amirr0r.github.io/assets/img/vulnhub/stapler/21-ftp.png)
 
 During this first reconnaissance phase, we identified 3 potential users:
 
@@ -195,7 +195,7 @@ smb: \backup\> get wordpress-4.tar.gz
 getting file \backup\wordpress-4.tar.gz of size 6321767 as wordpress-4.tar.gz (28984.0 KiloBytes/sec) (average 25018.2 KiloBytes/sec)
 ```
 
-![todo list](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/139-smb-todo-list.png)
+![todo list](https://amirr0r.github.io/assets/img/vulnhub/stapler/139-smb-todo-list.png)
 
 ### DNS (port 53)
 
@@ -203,7 +203,7 @@ getting file \backup\wordpress-4.tar.gz of size 6321767 as wordpress-4.tar.gz (2
 
 Requesting DNS zone transfer:
 
-![DNS](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/53-dig.png)
+![DNS](https://amirr0r.github.io/assets/img/vulnhub/stapler/53-dig.png)
 
 We see a bunch of new IP addresses associated with domain names.
 
@@ -234,15 +234,15 @@ Unfortunately, each of these IP addresses only runs DNS on port 53 ...
 
 ### HTTP•S (Port 12380)
 
-![](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380.png)
+![](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380.png)
 
 If we check the sources we can see another user (**Tim**):
 
-![](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-sources.png)
+![](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-sources.png)
 
 #### `nikto`
 
-![](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-nikto.png)
+![](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-nikto.png)
 
 Unlike port 80, this nikto scan returns us SSL info and plenty of interesting information such as:
 
@@ -257,7 +257,7 @@ As we can see `gobuster` doesn't get any response if we attack the target using 
 
 ##### HTTP
 
-![](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-gobuster.png)
+![](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-gobuster.png)
 
 ##### HTTPS
 
@@ -294,21 +294,21 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 #### `/announcements`
 
-![announcements](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-announcements.png)
+![announcements](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-announcements.png)
 
-![message](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-announcements-message.png)
+![message](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-announcements-message.png)
 
 Another potential user: **Abby**.
 
 #### `/blogblog`
 
-![blogblog initech](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/john-smith.png)
+![blogblog initech](https://amirr0r.github.io/assets/img/vulnhub/stapler/john-smith.png)
 
 **John Smith** is the author of all posts!
 
 First, I took a look at HTTP Response Headers to see if we can get any information:
 
-![dave](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-dave.png)
+![dave](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-dave.png)
 
 Something doesn't look right here...
 
@@ -317,7 +317,7 @@ Then I ran `gobuster`:
 
 The site takes a while to load, so I decided to check the sources:
 
-![wordpress](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-wordpress.png)
+![wordpress](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-wordpress.png)
 
 We can notice that's a **WordPress** website version `4.2.1`.
 
@@ -325,7 +325,7 @@ We can notice that's a **WordPress** website version `4.2.1`.
 
 ##### `gobuster`
 
-![blogblog gobuster](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-blogblog-gobuster.png)
+![blogblog gobuster](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-blogblog-gobuster.png)
 
 ##### `wpscan`
 
@@ -337,7 +337,7 @@ Wordpress Security Scanner alias `wpscan` can help us attack this website.
 $ wpscan --url https://192.168.1.106:12380/blogblog/ --disable-tls-checks --enumerate u
 ```
 
-![Wordpress user](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-users.png)
+![Wordpress user](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-users.png)
 
 - Bruteforce passwords:
 
@@ -345,21 +345,21 @@ $ wpscan --url https://192.168.1.106:12380/blogblog/ --disable-tls-checks --enum
 $ wpscan --url https://192.168.1.106:12380/blogblog/ --disable-tls-checks --password-attack wp-login -U wp-users.txt -P /usr/share/wordlists/seclists/Passwords/darkweb2017-top10000.txt -t 100
 ```
 
-![user creds](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-users-creds.png)
+![user creds](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-users-creds.png)
 
 Let's try to lo in:
 
-![wp-login](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/12380-wp-login.png)
+![wp-login](https://amirr0r.github.io/assets/img/vulnhub/stapler/12380-wp-login.png)
 
 We're in:
 
-![harry dashboard](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/harry.png)
+![harry dashboard](https://amirr0r.github.io/assets/img/vulnhub/stapler/harry.png)
 
 Our goal to gain access to target's shell. In order to do that, we can upload a malicious php file via wordpress.
 
 Among the users for whom we managed to get their passwords, only `john` has a different dashboard and seems to be the admin: 
 
-![john wp-admin](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/wp-admin.png)
+![john wp-admin](https://amirr0r.github.io/assets/img/vulnhub/stapler/wp-admin.png)
 
 
 ### Reverse shell (uploading malicious plugin)
@@ -372,21 +372,21 @@ $ nc -lnvp 1234
 
 We'll try to upload a [tiny PHP reverse shell](https://gist.github.com/rshipp/eee36684db07d234c1cc) in WordPress plugins:
 
-![plugins](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/plugins.png)
+![plugins](https://amirr0r.github.io/assets/img/vulnhub/stapler/plugins.png)
 
-![add plugin](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/add-plugins.png)
+![add plugin](https://amirr0r.github.io/assets/img/vulnhub/stapler/add-plugins.png)
 
 We specify `anonymous` as username and password:
 
-![install plugin](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/install-plugins.png)
+![install plugin](https://amirr0r.github.io/assets/img/vulnhub/stapler/install-plugins.png)
 
 `shell.php` is in [https://192.168.1.106:12380/blogblog/wp-content/uploads/](https://192.168.1.106:12380/blogblog/wp-content/uploads/):
 
-![uploaded plugin](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/uploaded-plugin.png)
+![uploaded plugin](https://amirr0r.github.io/assets/img/vulnhub/stapler/uploaded-plugin.png)
 
 If we click on it, PHP is executed by the web server and we got a shell:
 
-![reverse shell](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/reverse-shell.png)
+![reverse shell](https://amirr0r.github.io/assets/img/vulnhub/stapler/reverse-shell.png)
 
 ### Privesc
 
@@ -394,38 +394,38 @@ If we click on it, PHP is executed by the web server and we got a shell:
 
 [`linpeas.sh`](https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh) reported an interesting file that we can overwrite: `/usr/local/sbin/cron-logrotate.sh`
 
-![linpeas](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/cron-logrotate.png)
+![linpeas](https://amirr0r.github.io/assets/img/vulnhub/stapler/cron-logrotate.png)
 
-![cron-logrotate content](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/cron-logrotate-1.png)
+![cron-logrotate content](https://amirr0r.github.io/assets/img/vulnhub/stapler/cron-logrotate-1.png)
 
 The file contains nothing interesting but it's owned by root. If this script is executed by root via a cronjob we can put a reverse shell payload in it:
 
-![reverse shell payload](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/cron-logrotate-2.png)
+![reverse shell payload](https://amirr0r.github.io/assets/img/vulnhub/stapler/cron-logrotate-2.png)
 
 It worked:
 
-![reverse shell as root](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/cron-logrotate-root.png)
+![reverse shell as root](https://amirr0r.github.io/assets/img/vulnhub/stapler/cron-logrotate-root.png)
 
 #### Method #2: .bash_history
 
 If we inspect `.bash_history` files of each user in `/home`, we can identify these two lines:
 
-![bash_history](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/bash_history.png)
+![bash_history](https://amirr0r.github.io/assets/img/vulnhub/stapler/bash_history.png)
 
 `thisimypassword` is JKanode's password and `JZQuyIN5` is peter's password.
 
 If we log in as **peter** we can see that he can run `sudo` for every program. So if we run `sudo su` we can privesc to `root`
 
-![peter-sudo](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/peter-sudo.png)
+![peter-sudo](https://amirr0r.github.io/assets/img/vulnhub/stapler/peter-sudo.png)
 
 #### Method #3: kernel exploit
 
-![ubuntu 16-04](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/ubuntu-16-04.png)
+![ubuntu 16-04](https://amirr0r.github.io/assets/img/vulnhub/stapler/ubuntu-16-04.png)
 
 The target machine is running **Ubuntu 16.04** with a Linux kernel version `4.4.0-21-generic`.
 
 Since it's an old box, we can easily bet on kernel exploits. Indeed:
-![searchsploit](https://amirr0r.github.io/assets/img/htb/machines/linux/stapler/searchsploit.png)
+![searchsploit](https://amirr0r.github.io/assets/img/vulnhub/stapler/searchsploit.png)
 
 ```bash
 $ searchsploit -m linux/local/39772.txt                                            
