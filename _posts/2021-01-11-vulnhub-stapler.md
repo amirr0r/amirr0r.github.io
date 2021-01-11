@@ -362,7 +362,7 @@ Among the users for whom we managed to get their passwords, only `john` has a di
 ![john wp-admin](https://amirr0r.github.io/assets/img/vulnhub/linux/stapler/wp-admin.png)
 
 
-### Reverse shell (uploading malicious plugin)
+## Reverse shell (uploading malicious plugin)
 
 First and foremost, let's run a listener:
 
@@ -388,9 +388,9 @@ If we click on it, PHP is executed by the web server and we got a shell:
 
 ![reverse shell](https://amirr0r.github.io/assets/img/vulnhub/linux/stapler/reverse-shell.png)
 
-### Privesc
+## Privesc
 
-#### Method #1: `cron-logrotate.sh`
+### Method #1: `cron-logrotate.sh`
 
 [`linpeas.sh`](https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh) reported an interesting file that we can overwrite: `/usr/local/sbin/cron-logrotate.sh`
 
@@ -406,7 +406,7 @@ It worked:
 
 ![reverse shell as root](https://amirr0r.github.io/assets/img/vulnhub/linux/stapler/cron-logrotate-root.png)
 
-#### Method #2: .bash_history
+### Method #2: .bash_history
 
 If we inspect `.bash_history` files of each user in `/home`, we can identify these two lines:
 
@@ -418,7 +418,7 @@ If we log in as **peter** we can see that he can run `sudo` for every program. S
 
 ![peter-sudo](https://amirr0r.github.io/assets/img/vulnhub/linux/stapler/peter-sudo.png)
 
-#### Method #3: kernel exploit
+### Method #3: kernel exploit
 
 ![ubuntu 16-04](https://amirr0r.github.io/assets/img/vulnhub/linux/stapler/ubuntu-16-04.png)
 
