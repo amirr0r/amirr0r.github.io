@@ -2,7 +2,7 @@ VM=$1;
 OS=$2;
 LEVEL=$3;
 
-if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $OS ]; then
+if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $LEVEL ]; then
     LILVM=`echo $1 | tr 'A-Z' 'a-z'`; # Irked -> irked
     MAJOS=`echo "$(tr '[:lower:]' '[:upper:]' <<< ${OS:0:1})${OS:1}"`; # linux -> Linux
     MAJLEVEL=`echo "$(tr '[:lower:]' '[:upper:]' <<< ${LEVEL:0:1})${LEVEL:1}"`; # easy -> Easy
