@@ -2,7 +2,7 @@
 title: HackTheBox - Networked
 date: 2020-12-28 23:20:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, file upload bypass, magic bytes, reverse-shell, cron, network-scripts, full disclosure, writeup, oscp-prep]
+tags: [htb-linux-easy, exiftool, file upload bypass, magic bytes, reverse-shell, cron, network-scripts, full disclosure, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/networked/Networked.png
 ---
 
