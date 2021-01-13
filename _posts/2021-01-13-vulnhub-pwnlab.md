@@ -2,11 +2,15 @@
 title: VulnHub - Pwnlab
 date: 2021-01-13 15:21:53 +0100
 categories: [VulnHub walkthroughs, Linux]
-tags: [vulnhub-linux, LFI, php filter, MySQL, magic bytes, file upload bypass, tcpdump, lang cookie, reverse-shell, ghidra, decompilation, pwn, PATH, format string exploit, writeup, oscp-prep]
+tags: [vulnhub-linux, netdiscover, nikto, LFI, php filter, MySQL, magic bytes, file upload bypass, tcpdump, lang cookie, reverse-shell, ghidra, decompilation, pwn, PATH, format string exploit, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/vulnhub/linux/pwnlab/Pwnlab.png
 ---
 
 ## Enumeration
+
+### `netdiscover`
+
+![netdiscover](https://amirr0r.github.io/assets/img/vulnhub/linux/pwnlab/netdiscover.png)
 
 ### `nmap` scan
 
