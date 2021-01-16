@@ -28,7 +28,7 @@ Hope you will enjoy reading it!
 
 My firstname is **Amir** and some of my friends call me "a mirror" because of the following sketch:
 
-<video>
+<video controls width="600">
     <source src="https://amirr0r.github.io/assets/videos/Trevor-Noah-Amir.mp4" type="video/mp4">
 </video>
 
