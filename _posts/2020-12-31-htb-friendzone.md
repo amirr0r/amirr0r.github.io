@@ -2,7 +2,7 @@
 title: HackTheBox - FriendZone
 date: 2020-12-31 17:55:29 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, samba, smbclient, smbmap, DNS, zone transfer, LFI, reverse-shell, python, cron, pspy, writeup, oscp-prep]
+tags: [htb-linux-easy, samba, smbclient, smbmap, DNS, zone transfer, LFI, reverse-shell, python module hijacking, cron, pspy, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/friendzone/FriendZone.png
 ---
 
