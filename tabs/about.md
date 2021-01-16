@@ -27,4 +27,5 @@ Hope you will enjoy reading it!
 
 <script>
     Array.from(document.querySelectorAll('td')).filter(td => td.querySelector('img')).forEach(td => td.style["text-align"] = "left")
+    document.querySelector(".post-content p > img:not([style])").style.left = "0%"
 </script>
