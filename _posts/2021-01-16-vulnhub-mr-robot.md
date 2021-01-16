@@ -234,7 +234,8 @@ drwxr-xr-x 2 root  root  4096 Nov 13  2015 .
 drwxr-xr-x 3 root  root  4096 Nov 13  2015 ..
 -r-------- 1 robot robot   33 Nov 13  2015 key-2-of-3.txt
 -rw-r--r-- 1 robot robot   39 Nov 13  2015 password.raw-md5
-daemon@linux:/home/robot$ cat password.raw-md5cat password.raw-md5robot:c3fcd3d76192e4007dfb496cca67e13b
+daemon@linux:/home/robot$ cat password.raw-md5
+robot:c3fcd3d76192e4007dfb496cca67e13b
 ```
 
 #### Cracking MD5 using hashcat
