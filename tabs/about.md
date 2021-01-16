@@ -24,6 +24,13 @@ Mostly CTF walkthroughs, maybe some cheat sheets like this [one](https://github.
 
 Hope you will enjoy reading it!
 
+## Why `amirr0r` ?
+
+My firstname is **Amir** and some of my friends call me "a mirror" because of the following sketch:
+
+<video>
+    <source src="https://amirr0r.github.io/assets/videos/Trevor-Noah-Amir.mp4" type="video/mp4">
+</video>
 
 <script>
     Array.from(document.querySelectorAll('td')).filter(td => td.querySelector('img')).forEach(td => td.style["text-align"] = "left");
