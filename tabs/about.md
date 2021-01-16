@@ -33,4 +33,5 @@ Hope you will enjoy reading it!
     mini_icons[2].style.left = "-8%";
     mini_icons[3].style.left = "-2%";
     mini_icons[4].style.left = "-8%";
+    document.querySelector('.thm_margin').style.margin="0px";
 </script>
