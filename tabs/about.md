@@ -23,3 +23,8 @@ Here are some of my online profiles:
 Mostly CTF walkthroughs, maybe some cheat sheets like this [one](https://github.com/amirr0r/notes/blob/master/Infosec/pentest-cheatsheet.md#pentest-cheatsheet) and articles talking about technology.
 
 Hope you will enjoy reading it!
+
+
+<script>
+    Array.from(document.querySelectorAll('td')).filter(td => td.querySelector('img')).forEach(td => td.style["text-align"] = "left")
+</script>
