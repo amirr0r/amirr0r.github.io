@@ -27,7 +27,7 @@ Hope you will enjoy reading it!
 
 <script>
     Array.from(document.querySelectorAll('td')).filter(td => td.querySelector('img')).forEach(td => td.style["text-align"] = "left");
-    const mini_icons = Array.from(document.querySelectorAll(".post-content p > img:not([style])");
+    const mini_icons = Array.from(document.querySelectorAll(".post-content p > img:not([style])"));
     mini_icons[0].style.left = "-2%";
     mini_icons[1].style.left = "-5%";
 </script>
