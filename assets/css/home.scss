@@ -16,8 +16,6 @@
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-border-color);
-    display: table;
-
     h1 {
       font-size: 1.4rem;
       margin: 0;
@@ -49,7 +47,24 @@
         -webkit-box-orient: vertical;
       }
     }
-
+    
+    .post-img-cnt {
+      // float:left;
+      display: table;
+      position: relative;
+      // margin: 15px auto;
+    }
+    
+    .post-img {
+      background: #22263C; 
+      border-radius: 15px; 
+      padding: 3px;
+    }
+    
+    .post-details {
+      // float:left;
+      // width: 50%;
+    }
   } // .post-preview
 
 } // #post-list
