@@ -8,7 +8,7 @@
 
 @mixin dark-scheme {
   /* framework */
-  --main-wrapper-bg: rgb(27, 27, 30);
+  --main-wrapper-bg: /* #0B0D1C; */ rgb(27, 27, 30);
   --body-bg: var(--main-wrapper-bg);
   --topbar-wrapper-bg: rgb(39, 40, 43);
   --search-wrapper-bg: rgb(34, 34, 39);
