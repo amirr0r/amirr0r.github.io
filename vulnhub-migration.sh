@@ -8,6 +8,7 @@ if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $OS ]; then
     mkdir -p ~/workspace/amirr0r.github.io/assets/img/vulnhub/$OS/$LILVM
     # 2. Copy screenshots into img folder
     cp $VULNHUB/$VM/img/*.png ~/workspace/amirr0r.github.io/assets/img/vulnhub/$OS/$LILVM
+    cp $VULNHUB/$VM/img/*.gif ~/workspace/amirr0r.github.io/assets/img/vulnhub/$OS/$LILVM
     # 3. Create WU post
     prefix=`date --rfc-3339=date`;
     wu_file="$HOME/workspace/amirr0r.github.io/_posts/$prefix-vulnhub-$LILVM.md";

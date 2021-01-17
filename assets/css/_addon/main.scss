@@ -78,6 +78,7 @@ $sidebar-display: "sidebar-display";
   width: $sidebar-width-medium;
   z-index: 99;
   background: var(--sidebar-bg);
+  border-right: 3px solid #22263C;
   a {
     @include sidebar-links;
   }
@@ -287,6 +288,7 @@ $sidebar-display: "sidebar-display";
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.05);
   background-color: var(--topbar-wrapper-bg);
+  border-bottom: 3px solid #22263C;
 }
 
 #topbar i { // icons
@@ -319,7 +321,7 @@ $sidebar-display: "sidebar-display";
   display: flex;
   width: 95%;
   border-radius: 1rem;
-  border: 1px solid var(--search-wrapper-bg);
+  border: 2px solid var(--search-wrapper-bg);
   background: var(--search-wrapper-bg);
   padding: 0 .5rem;
   i {
@@ -854,7 +856,7 @@ div.post-content .table-wrapper {
   background: var(--tag-bg);
   border-radius: .3rem;
   padding: 0 .4rem;
-  color: inherit;
+  color: cornflowerblue /* #3FAC63 */ /* inherit */;
   line-height: 1.3rem;
   &:not(:last-child) {
     margin-right: .2rem;
