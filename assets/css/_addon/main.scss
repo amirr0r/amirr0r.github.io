@@ -78,7 +78,7 @@ $sidebar-display: "sidebar-display";
   width: $sidebar-width-medium;
   z-index: 99;
   background: var(--sidebar-bg);
-  border-right: 3px solid #22263C;
+  /* border-right: 3px solid #22263C; */
   a {
     @include sidebar-links;
   }
