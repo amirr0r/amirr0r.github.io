@@ -49,7 +49,7 @@ layout: page
 {% for post in posts %}
 
   <div class="post-preview">
-    <img src="{{ post.image }}" loading="lazy" src="" style="float: left; vertical-align: middle; border-radius: 15px; margin-right: 10px; width: 38%; background: #22263C; padding: 3px;" height="170">
+    <img src="{{ post.image }}" loading="lazy" style="float: left; vertical-align: middle; border-radius: 15px; margin-right: 10px; width: 38%; background: #22263C; padding: 3px;" height="170">
     <div class="d-flex justify-content-between pr-xl-2">
       <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
       {% if post.pin == true %}
