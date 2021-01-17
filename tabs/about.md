@@ -20,7 +20,7 @@ Here are some of my online profiles:
 
 ## What will you find on this blog?
 
-Mostly CTF walkthroughs, maybe some cheat sheets like this [one](https://github.com/amirr0r/notes/blob/master/Infosec/pentest-cheatsheet.md#pentest-cheatsheet) and articles talking about technology.
+Mostly CTF walkthroughs, maybe some cheat sheets like this [one](https://github.com/amirr0r/notes/blob/master/Infosec/boot2root-cheatsheet.md#boot2root-cheatsheet) and articles talking about technology.
 
 Hope you will enjoy reading it!
 
