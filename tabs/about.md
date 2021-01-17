@@ -8,7 +8,7 @@ Welcome to my personal blog!
 
 > Definitely not an expert.
 
-Just an eternal apprentice that wants to document and share what he has learned about programming/hacking.
+Just an eternal apprentice who wants to document and share what he has learned about programming/hacking.
 
 Here are some of my online profiles: 
 
