@@ -65,7 +65,7 @@ There are some exploits against Bludit:
 
 `multiple/webapps/48701.txt` allows us to obtain a reverse shell but it requires authentification.
 
-`php/webapps/48942.py` can be used to  to bypass brute force protection.
+`php/webapps/48942.py` can be used to bypass brute force protection.
 
 ## Foothold
 
