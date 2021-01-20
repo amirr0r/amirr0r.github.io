@@ -2,7 +2,7 @@
 title: HackTheBox - Blunder
 date: 2021-01-20 17:37:00 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, Bludit, searchsploit, bruteforce, bruteforce protection bypass, chaining exploits, cewl, custom wordlist, reverse-shell, linpeas, hashcat, Rule-based Attack, sudo undeflow, writeup, oscp-prep]
+tags: [htb-linux-easy, Bludit, searchsploit, brute-force, bruteforce protection bypass, chaining exploits, cewl, custom wordlist, reverse-shell, linpeas, hashcat, Rule-based Attack, sudo undeflow, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/blunder/Blunder.png
 ---
 
