@@ -2,7 +2,7 @@
 title: HackTheBox - Academy
 date: 2021-03-03 19:44:17 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, writeup, oscp-prep]
+tags: [htb-linux-easy, Laravel, metasploit, CVE-2018-15133, CVE-2017-16894, reverse-shell, plain text password, Linux logging passwords, composer, GTFOBins, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/academy/Academy.png
 ---
 
