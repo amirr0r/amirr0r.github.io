@@ -23,7 +23,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Apache httpd (port 80)
 
-![Port 80](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/academy/academy.png)
+![Port 80](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/academy/80.png)
 
 Once we go to [http://10.10.10.215](http://10.10.10.215), we can see two links:
 
