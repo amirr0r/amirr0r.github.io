@@ -1,9 +1,9 @@
 ---
-title: Cyberweapons and humanity consequences
+title: Cyberweapons and mankind consequences
 date: 2021-03-09 23:38:36 +0100
 categories: [Articles]
 tags: [article, cyberwarfare]
-image: /assets/img/articles/cyberweapons-humanity-consequences/thumbnail.png
+image: /assets/img/articles/cyberweapons-mankind-consequences/thumbnail.png
 pin: true
 ---
 
@@ -49,7 +49,7 @@ In other words, they need a lot of skills and resources that only a nation-state
 
 ## Conclusion
 
-In conclusion, cyber weapons may has the potential to result in very serious consequences for humanity and is already an additional way to attack countries. A power shutdown in a vast country is not as simple as it seems. Nevertheless, cyber attacks are a threat that countries cannot underestimate. 
+In conclusion, cyber weapons may have the potential to result in very serious consequences for humanity and is already an additional way to attack countries. A power shutdown in a vast country is not as simple as it seems. Nevertheless, cyber attacks are a threat that countries cannot underestimate. 
 
 Nowadays, we can consider that malwares are not as dangerous as conventional weapons. The only question is: for how long ?
 
