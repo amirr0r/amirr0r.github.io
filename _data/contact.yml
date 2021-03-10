@@ -11,6 +11,9 @@
   type: twitter
   icon: 'fab fa-twitter'
 -
+  type: linkedin
+  icon: 'fab fa-linkedin-in'
+-
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
