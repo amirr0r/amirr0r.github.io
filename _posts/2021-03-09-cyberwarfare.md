@@ -41,7 +41,7 @@ On the other hand, <u>the aim of a virus isn't always to destroy a system</u>. I
 
 However, the art of hacking and exploitation of vulnerabilities is a very complex and esoteric discipline. The real elegance of an attack is its planning and execution. 
 
-In fact, the result of a cyber weapon execution is not as sure as an airplane bomb. If you drop a bomb or a missile, the damage will be certain. In the case of __BlackEnergy__ attack, the Ukrainians managed to restore power in just [<u>six hours</u>](https://www.wired.com/2016/03/inside-cunning-unprecedented-hack-ukraines-power-grid/). For an industrial company, a cyber attack is not the only threat, and maybe not even the worst *(hurricanes, terrorists...etc)*.
+In fact, the result of a cyber weapon execution is not as sure as an airplane bomb. If you drop a bomb or a missile, the damage will be certain. In the case of __BlackEnergy__ attack, the Ukrainians managed to restore power in just [six hours](https://www.wired.com/2016/03/inside-cunning-unprecedented-hack-ukraines-power-grid/). For an industrial company, a cyber attack is not the only threat, and maybe not even the worst *(hurricanes, terrorists...etc)*.
 
 As a matter of fact, even if competent people intended to carry out a cyberattack, it would take them months or even years. Any serious hacker will not rely on luck. In order to ensure that their attack will work, they have to spend thousands of hours for data gathering, identifying weak points of the target(s), conducted specific tests with the same devices and so on. 
 
