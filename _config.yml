@@ -24,6 +24,9 @@ avatar: /assets/img/sample/avatar.jpg   # support internet resources
 github:
   username: amirr0r             	# change to your github username
 
+linkedin:
+  username: amir-barnat
+
 social:
   name: amirr0r	                  	# it will shows as the copyright owner in Footer
   email: amirr0r@pm.me              # change to your email address
@@ -31,9 +34,9 @@ social:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username      # change to your twitter homepage
     - https://github.com/amirr0r	 # change to your github homepage
+    - https://www.linkedin.com/in/amir-barnat
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/amir-barnat
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
