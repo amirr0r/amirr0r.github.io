@@ -10,10 +10,10 @@ on:
 
 jobs:
   continuous-delivery:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     env:
-      GEMS_PATH: vendor/bundle
+      GEMS_PATH: /tmp/bundle
 
     steps:
       - uses: actions/setup-ruby@v1
