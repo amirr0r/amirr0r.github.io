@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GEMS_PATH: /tmp/bundle
+      GEMS_PATH: vendor/bundle
 
     steps:
       - uses: actions/setup-ruby@v1
