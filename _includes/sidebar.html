@@ -69,7 +69,7 @@
       {%- if entry.type == 'github' -%}
         https://github.com/{{ site.github.username }}
       {%- elsif entry.type == 'linkedin' -%}
-        https://www.linkedin.com/in/{{ site.linkedin.username }}
+        https://www.linkedin.com/in/{{ site.linkedin.username }}/?locale=en_US
       {%- elsif entry.type == 'email' -%}
         {% assign email = site.social.email | split: '@' %}
         javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))
