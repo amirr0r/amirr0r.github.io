@@ -69,5 +69,6 @@ ___
 
 - [**TheHackerNews**: Israel Neutralizes Cyber Attack by Blowing Up A Building With Hackers](https://thehackernews.com/2019/05/israel-hamas-hacker-airstrikes.html)
 - [**ZDnet**: Hacker modified drinking water chemical levels in a US city](https://www.zdnet.com/article/hacker-modified-drinking-water-chemical-levels-in-a-us-city/)
+- [**Wired**: The Dire Possibility of Cyberattacks on Weapons Systems](https://www.wired.com/story/dire-possibility-cyberattacks-weapons-systems/)
 - [**Le monde en cartes**: Espionnage, sabotage… Géopolitique dans le cyberespace](https://www.youtube.com/watch?v=cc989ta0MMs)
 - [**Arte** (Le Dessous des cartes): Le cyber, nouvel espace géopolitique](https://www.youtube.com/watch?v=y48XMmv3rj8)
