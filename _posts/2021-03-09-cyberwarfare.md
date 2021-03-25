@@ -31,7 +31,7 @@ These types of attacks were used to install a malware which is called **BlackEne
 
 The problem is that those systems were designed to prioritize availability over security and not to be facing cyber attacks.
 
-Furthermore, <u>in a cyber warfare killing people is not necessary</u> because you have them at your mercy. Paralyzing critical infrastructure is a sufficient means of pressure *(for instance, threatening them to cut off electricity during the winter could cause them to die of cold...)*. 
+Furthermore, <u>in a cyber warfare killing people is not necessary</u> because you have them at your mercy. Paralyzing critical infrastructure is a sufficient mean of pressure *(for instance, threatening them to cut off electricity during the winter could cause them to die of cold...)*. 
 
 On the other hand, <u>the aim of a virus isn't always to destroy a system</u>. It depends on the attackers' ambition *(spying, stealing informations..)*. 
 
@@ -43,7 +43,7 @@ However, the art of hacking and exploitation of vulnerabilities is a very comple
 
 In fact, the result of a cyber weapon execution is not as sure as an airplane bomb. If you drop a bomb or a missile, the damage will be certain. In the case of __BlackEnergy__ attack, the Ukrainians managed to restore power in just [six hours](https://www.wired.com/2016/03/inside-cunning-unprecedented-hack-ukraines-power-grid/). For an industrial company, a cyber attack is not the only threat, and maybe not even the worst *(hurricanes, terrorists...etc)*.
 
-As a matter of fact, even if competent people intended to carry out a cyberattack, it would take them months or even years. Any serious hacker will not rely on luck. In order to ensure that their attack will work, they have to spend thousands of hours for data gathering, identifying weak points of the target(s), conducted specific tests with the same devices and so on. 
+As a matter of fact, even if competent people intended to carry out a cyberattack, it would take them months or even years. Any serious hacker will not rely on luck. In order to ensure that their attack will work, they have to spend thousands of hours for data gathering, identifying weak points of the target(s), conducting specific tests with the same devices and so on. 
 
 In other words, they need a lot of skills and resources that only a nation-state or a very wealthy organization could have, and even then, it's hard to guarantee success.
 
