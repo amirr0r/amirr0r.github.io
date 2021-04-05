@@ -95,7 +95,7 @@ The web server seems vulnerable to the **Heartbleed vulnerability** that affects
 
 ![xkcd heatbleed explanation](https://https://amirr0r.github.io/assets/img/htb/machines/linux/easy/valentines.xkcd.com/comics/heartbleed_explanation.png)
 
-> The Heartbleed bug allows anyone on the Internet to read the memory of the systems protected by the vulnerable versions of the OpenSSL software. This compromises the secret keys used to identify the service providers and to encrypt the traffic, the names and passwords of the users and the actual content. This allows attackers to eavesdrop on communications, steal data directly from the services and users and to impersonate services and users. [Source: [heartbleed.com](https://heartbleed.com/)]
+> The Heartbleed bug allows anyone on the Internet to read the memory of the systems affected by the vulnerable versions of the OpenSSL software. This compromises the secret keys used to identify the service providers and to encrypt the traffic, the names and passwords of the users and the actual content. This allows attackers to eavesdrop on communications, steal data directly from the services and users and to impersonate services and users. [Source: [heartbleed.com](https://heartbleed.com/)]
 
 We can confirm this by using `sslyze`:
 
