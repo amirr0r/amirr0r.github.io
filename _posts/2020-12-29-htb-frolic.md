@@ -2,7 +2,7 @@
 title: HackTheBox - Frolic
 date: 2020-12-29 21:24:41 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
-tags: [htb-linux-easy, esoteric langages, John The Ripper, zip2john, playSMS, CVE-2017-9101, SUID, ROP, pwn, ret2libc, decompilation, ghidra, gdb-peda, writeup, oscp-prep]
+tags: [htb-linux-easy, esoteric langages, John The Ripper, zip2john, playSMS, CVE-2017-9101, SUID, pwn, ret2libc, decompilation, ghidra, gdb-peda, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/frolic/Frolic.png
 ---
 
