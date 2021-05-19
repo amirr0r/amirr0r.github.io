@@ -396,6 +396,6 @@ ___
 ## Useful links
 
 - [VbScrub - Kerberos playlist](https://www.youtube.com/playlist?list=PL3B8L-z5QU-Z0bWmjwgUSLGTzm1k_kVZo)
-- [Hackndo - ASREPRoasting]((https://beta.hackndo.com/kerberos-asrep-roasting/))
+- [Hackndo - ASREPRoasting](https://beta.hackndo.com/kerberos-asrep-roasting/)
 - [My Boot2root cheatsheet - Kerberos](https://github.com/amirr0r/notes/blob/master/Infosec/boot2root-cheatsheet.md#kerberos)
 - [Quering and Cracking Kerberos Tickets!](https://blog.spookysec.net/kerberos-abuse/)
