@@ -6,7 +6,9 @@ Welcome to my personal blog!
 
 ## Who I am?
 
-Just an eternal apprentice who wants to document and share what he has learned about programming and/or information security.
+Just an eternal apprentice who wants to document and share what he has learned about programming and information security.
+
+What better way to learn about a technology than trying to break/protect it?
 
 Here are some of my online profiles: 
 
