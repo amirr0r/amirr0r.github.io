@@ -2,7 +2,7 @@
 title: "Cyber Apocalypse CTF 2021 - Minefield (Pwn)"
 date: 2021-05-19 09:00:00 +0100
 categories: [CTF writeup, Pwn]
-tags: [CTF, Pwn, 64-bit ELF, bypass canary, .fini_array, checksec, gdb-peda, ghidra, pwntools]
+tags: [CTF, Pwn, 64-bit ELF, bypass canary, fini_array, checksec, gdb-peda, ghidra, pwntools]
 image: /assets/img/ctf/cyber-apocalypse-2021/CyberApocalypseCTF2021.png
 ---
 
