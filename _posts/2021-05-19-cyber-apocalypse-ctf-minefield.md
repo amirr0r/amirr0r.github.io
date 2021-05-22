@@ -77,7 +77,7 @@ The `mission()` function waits for two values:
 1. "Insert type of mine:" &rarr; in a 10 characters buffer (`local_24`)
 2. "Insert location to plant:" &rarr; also in a 10 characters buffer (`local_1a`)
 
-Each user input is converted to _unsigned long long int_ via the **LIBC**'s function of [strtoull] (https://linux.die.net/man/3/strtoull).
+Each user input is converted to _unsigned long long int_ via the **LIBC**'s function of [strtoull](https://linux.die.net/man/3/strtoull).
 
 ![](/assets/img/ctf/cyber-apocalypse-2021/pwn/minefield/source.png)
 
@@ -107,11 +107,11 @@ Our strategy will be as follows:
 
 To do this, we can corrupt the memory by modifying the Procedure Linkage Table (**PLT**) or the **.fini_array** section:
 
-> **.fini_array ** is an array of functions called when the program terminates.
+> **.fini_array** is an array of functions called when the program terminates.
 
 > The **PLT** is an array of function pointers. Every function called by the program that resides in an external library (such as the LIBC) resides in the PLT. The reason it is writable during the runtime is because of the support for **lazy liking** (which consists in resolving the address of a function is only when it is called for the first time)
 
-So if we modify **.fini_array ** by inserting the address of the function "`_`", we will win.
+So if we modify **.fini_array** by inserting the address of the function "`_`", we will win.
 
 > It is possible to corrupt these sections because **RELRO** (Relocation Read-Only) protection has not been activated. This protection makes the “data” sections (GOT, PLT…) accessible only in read-only mode.
 
@@ -171,7 +171,7 @@ pwn.info(".fini_array section address: 0x%x" % fini_array_addr)
 2. "Insert type of mine:" &rarr; address where we will write to
 3. "Insert location to plant:" &rarr; address we want to write
 
-> Before interacting directly with the server on which the binary is being executed, it is better to test the exploit locally by creating a "flag.txt" file and check if we called the "` _`" function successfully.
+> Before interacting directly with the server on which the binary is being executed, it is better to test the exploit locally by creating a "flag.txt" file and check if we called the "`_`" function successfully.
 
 - With the following exploit it is possible to recover the flag:
 
