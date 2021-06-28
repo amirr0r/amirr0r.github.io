@@ -21,7 +21,7 @@ if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $LEVEL ]; then
     echo "image: img/$VM.png" >> $wu_file;
     echo "---" >> $wu_file;
     tail --lines=+4 $HTB/machines/$MAJOS/$VM/README.md >> $wu_file;
-    sed -i "s/img/https:\/\/amirr0r.github.io\/assets\/img\/htb\/machines\/$OS\/$LEVEL\/$LILVM/g" $wu_file;
+    sed -i "s/img/\/assets\/img\/htb\/machines\/$OS\/$LEVEL\/$LILVM/g" $wu_file;
 else
     echo "Usage: bash htb-migration.sh <VM_name> <OS:linux|windows> <LEVEL:easy|medium|hard|insane>"
 fi

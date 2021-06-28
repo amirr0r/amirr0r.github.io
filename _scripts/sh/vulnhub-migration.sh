@@ -20,7 +20,7 @@ if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $OS ]; then
     echo "image: img/$VM.png" >> $wu_file;
     echo "---" >> $wu_file;
     tail --lines=+4 $VULNHUB/$VM/README.md >> $wu_file;
-    sed -i "s/img/https:\/\/amirr0r.github.io\/assets\/img\/vulnhub\/$OS\/$LILVM/g" $wu_file;
+    sed -i "s/img/\/assets\/img\/vulnhub\/$OS\/$LILVM/g" $wu_file;
 else
     echo "Usage: bash vulnhub-migration.sh <VM_name> <OS:linux|windows|...>"
 fi

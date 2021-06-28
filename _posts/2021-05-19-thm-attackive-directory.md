@@ -2,11 +2,11 @@
 title: TryHackMe - Attackive directory
 date: 2021-05-19 07:40:04 +0100
 categories: [TryHackMe walkthroughs, Windows]
-tags: [thm-windows, writeup, oscp-prep, Active Directory, Domain Controller, Kerberos, kerbrute, ldapsearch, smbclient, ASREPRoasting, Impacket, DRSUAPI, Evil-WinRM, Pass The Hash, hashcat]
+tags: [thm-windows, oscp-prep, Active Directory, Domain Controller, Kerberos, kerbrute, ldapsearch, smbclient, ASREPRoasting, Impacket, DRSUAPI, Evil-WinRM, Pass The Hash, hashcat]
 image: https://amirr0r.github.io/assets/img/thm/windows/attackive-directory/attacktive-directory.png
 ---
 
-This [room](https://tryhackme.com/room/attacktivedirectory) from TryHackMe will cover attacks against a basic misconfigured **Domain Controller** via **Kerberos enumeration**, **ASREPRoasting**, **Impacket** and `Evil-WinRM`.
+This [room](https://tryhackme.com/room/attacktivedirectory) from TryHackMe cover attacks against a basic misconfigured **Domain Controller** via **Kerberos enumeration**, **ASREPRoasting**, **Impacket** and `Evil-WinRM`.
 
 ## Setup
 

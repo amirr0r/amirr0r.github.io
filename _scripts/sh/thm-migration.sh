@@ -19,7 +19,7 @@ if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $OS ]; then
     echo "image: img/$VM.png" >> $wu_file;
     echo "---" >> $wu_file;
     tail --lines=+4 $THM/$VM/README.md >> $wu_file;
-    sed -i "s/img/https:\/\/amirr0r.github.io\/assets\/img\/thm\/$OS\/$LILVM/g" $wu_file;
+    sed -i "s/img/\/assets\/img\/thm\/$OS\/$LILVM/g" $wu_file;
 else
     echo "Usage: bash thm-migration.sh <VM_name> <OS:linux|windows|...>"
 fi
