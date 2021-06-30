@@ -2,11 +2,11 @@
 title: TryHackMe - Attackive directory
 date: 2021-05-19 07:40:04 +0100
 categories: [TryHackMe walkthroughs, Windows]
-tags: [thm-windows, oscp-prep, Active Directory, Domain Controller, Kerberos, kerbrute, ldapsearch, smbclient, ASREPRoasting, Impacket, DRSUAPI, Evil-WinRM, Pass The Hash, hashcat]
+tags: [thm-windows, oscp-prep, Active Directory, Domain Controller, Kerberos, kerbrute, ldapsearch, smbclient, AS-REP Roasting, Impacket, DRSUAPI, Evil-WinRM, Pass The Hash, password cracking, hashcat]
 image: https://amirr0r.github.io/assets/img/thm/windows/attackive-directory/attacktive-directory.png
 ---
 
-This [room](https://tryhackme.com/room/attacktivedirectory) from TryHackMe cover attacks against a basic misconfigured **Domain Controller** via **Kerberos enumeration**, **ASREPRoasting**, **Impacket** and `Evil-WinRM`.
+This [room](https://tryhackme.com/room/attacktivedirectory) from TryHackMe cover attacks against a basic misconfigured **Domain Controller** via **Kerberos enumeration**, **AS-REP Roasting**, **Impacket** and `Evil-WinRM`.
 
 ## Setup
 
@@ -172,13 +172,13 @@ ___
 
 > I highly recommand to watch this [VbScrub - Kerberos](https://www.youtube.com/playlist?list=PL3B8L-z5QU-Z0bWmjwgUSLGTzm1k_kVZo) YouTube playlist before continuing.
 
-> And for french readers, this article from hackndo's blog: [ASREPRoasting](https://beta.hackndo.com/kerberos-asrep-roasting/)
+> And for french readers, this article from hackndo's blog: [AS-REP Roasting](https://beta.hackndo.com/kerberos-asrep-roasting/)
 
-**ASReproasting** occurs when a user account has the privilege _"Does not require Pre-Authentication"_ set. 
+**AS-REP Roasting** occurs when a user account has the privilege _"Does not require Pre-Authentication"_ set. 
 
 > This means that the account does not need to provide valid identification before requesting a Kerberos Ticket on the specified user account.
 
-To take advantage of this, we'll use `GetNPUsers.py` (from **Impacket**) that will allow us to query ASReproastable accounts from the Key Distribution Center. 
+To take advantage of this, we'll use `GetNPUsers.py` (from **Impacket**) that will allow us to query AS-REP Roastable accounts from the Key Distribution Center. 
 
 > **Note**:The only thing that's necessary to query accounts is a valid set of usernames which we enumerated previously via Kerbrute.
 
@@ -397,6 +397,6 @@ ___
 ## Useful links
 
 - [VbScrub - Kerberos playlist](https://www.youtube.com/playlist?list=PL3B8L-z5QU-Z0bWmjwgUSLGTzm1k_kVZo)
-- [Hackndo - ASREPRoasting](https://beta.hackndo.com/kerberos-asrep-roasting/)
+- [Hackndo - AS-REP Roasting](https://beta.hackndo.com/kerberos-asrep-roasting/)
 - [My Boot2root cheatsheet - Kerberos](https://github.com/amirr0r/notes/blob/master/Infosec/boot2root-cheatsheet.md#kerberos)
 - [Quering and Cracking Kerberos Tickets!](https://blog.spookysec.net/kerberos-abuse/)
