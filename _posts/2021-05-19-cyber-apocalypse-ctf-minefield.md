@@ -129,7 +129,6 @@ remote = False
 
 binary_path = './vuln'
 binary = pwn.ELF(binary_path)
-)
 
 if remote:
     r = pwn.remote(host,port)
