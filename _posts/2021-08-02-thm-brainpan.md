@@ -1,7 +1,7 @@
 ---
 title: TryHackMe/Vulnhub - Brainpan
 date: 2021-08-02 17:50:19 +0100
-categories: [TryHackMe walkthroughs, VulnHub walkthroughs, Linux]
+categories: [TryHackMe walkthroughs, Linux, VulnHub walkthroughs]
 tags: [thm-linux, writeup, oscp-prep, dirb, PE32, buffer overflow, pwn, pattern_create.rb, pattern_offset.rb, mona.py, Immunity Debugger, ollydbg, jmp esp, fuzzing, msfvenom, shellcode, sudo misconfiguration, GTFOBins]
 image: /assets/img/thm/linux/brainpan/Brainpan.png
 ---
@@ -251,7 +251,7 @@ Using `ollydbg`, I found the following address:
 
 ![](/assets/img/thm/linux/brainpan/JMP_ESP.png)
 
-However, to ensure it was the correct address I ran `brainpan.exe` on a Windows VM and inspected it (as on this [video](https://www.youtube.com/watch?v=k9D9RuFT02I&list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G&index=7) using) **Immunity Debugger** and `mona.py`: 
+However, to ensure it was the correct address I ran `brainpan.exe` on a Windows VM and inspected it using **Immunity Debugger** and `mona.py` (as explained on this [video](https://www.youtube.com/watch?v=k9D9RuFT02I&list=PLLKT__MCUeix3O0DPbmuaRuR_4Hxo4m3G&index=7)): 
 
 ![](/assets/img/thm/linux/brainpan/mona-brainpan.png)
 
