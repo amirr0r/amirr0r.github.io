@@ -1,7 +1,7 @@
 ---
 title: TryHackMe/Vulnhub - Brainpan
 date: 2021-08-02 17:50:19 +0100
-categories: [TryHackMe walkthroughs, Linux, VulnHub walkthroughs]
+categories: [TryHackMe walkthroughs, Linux]
 tags: [thm-linux, writeup, oscp-prep, dirb, PE32, buffer overflow, pwn, pattern_create.rb, pattern_offset.rb, mona.py, Immunity Debugger, ollydbg, jmp esp, fuzzing, msfvenom, shellcode, sudo misconfiguration, GTFOBins]
 image: /assets/img/thm/linux/brainpan/Brainpan.png
 ---
