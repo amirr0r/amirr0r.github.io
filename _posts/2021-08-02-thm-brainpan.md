@@ -6,9 +6,7 @@ tags: [thm-linux, writeup, oscp-prep, dirb, PE32, buffer overflow, pwn, pattern_
 image: /assets/img/thm/linux/brainpan/Brainpan.png
 ---
 
-Originally posted on **Vulnhub** by [superkojiman](https://www.vulnhub.com/entry/brainpan-1,51/)
-
-Brainpan is a vulnerable machine, highly recommended to complete before taking the OSCP exam due to the buffer overflow vulnerability that has to exploited.
+Originally posted on **Vulnhub** by [superkojiman](https://www.vulnhub.com/entry/brainpan-1,51/), [Brainpan](https://tryhackme.com/room/brainpan) is a vulnerable machine, highly recommended to complete before taking the OSCP exam due to the buffer overflow vulnerability that has to exploited.
 
 The vulnerable program is a Windows executable. 
 
