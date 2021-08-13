@@ -2,7 +2,7 @@
 title: HackTheBox - Arctic
 date: 2021-08-13 20:58:31 +0100
 categories: [Hackthebox walkthroughs, Windows, Easy]
-tags: [fmtp, Adobe ColdFusion, FCKeditor, CVE-2009-2265, JSP, msfvenom, meterpreter, shell to meterpreter, multi/handler, suggester, MS10-092, htb-windows-easy, writeup, oscp-prep]
+tags: [fmtp, Adobe ColdFusion, FCKeditor, CVE-2009-2265, JSP, msfvenom, meterpreter, shell to meterpreter, multi_handler, suggester, MS10-092, htb-windows-easy, writeup, oscp-prep]
 image: /assets/img/htb/machines/windows/easy/arctic/Arctic.png
 ---
 
