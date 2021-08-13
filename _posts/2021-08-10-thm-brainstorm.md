@@ -4,6 +4,7 @@ date: 2021-08-10 18:55:11 +0100
 categories: [TryHackMe walkthroughs, Windows]
 tags: [ftp binary download, PE32, buffer overflow, pwn, msf-pattern_create, msf-pattern_offset, x64dbg, ERC.Xdbg, jmp esp, fuzzing, msfvenom, shellcode, thm-windows, writeup, oscp-prep]
 image: /assets/img/thm/windows/brainstorm/Brainstorm.png
+pin: true
 ---
 
 [Brainstorm](https://tryhackme.com/room/brainstorm) is a **TryHackMe** room that consists in reversing a chat program and exploiting a buffer overflow on a remote Windows machine.

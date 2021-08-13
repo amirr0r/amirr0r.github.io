@@ -4,6 +4,7 @@ date: 2021-06-30 17:44:00 +0100
 categories: [TryHackMe walkthroughs, Windows]
 tags: [thm-windows, Active Directory, Domain Controller, Kerberos, kerbrute, Rubeus, harvesting tickets, Password Spraying, Kerberoasting, AS-REP Roasting, GetUserSPNs.py, GetNPUsers.py, Impacket, mimikatz, Pass The Ticket, password cracking, hashcat, skeleton key, backdoor, oscp-prep]
 image: /assets/img/thm/windows/attacking-kerberos/attacking-kerberos.png
+pin: true
 ---
 
 **Kerberos** (the windows ticket-granting service) can be attacked in multiple ways:

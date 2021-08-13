@@ -4,6 +4,7 @@ date: 2021-05-19 09:00:00 +0100
 categories: [CTF writeup, Pwn]
 tags: [CTF, pwn, 64-bit ELF, buffer overflow, bypass canary, fini_array, checksec, gdb-peda, ghidra, pwntools]
 image: /assets/img/ctf/cyber-apocalypse-2021/CyberApocalypseCTF2021.jpg
+pin: true
 ---
 
 > A few weeks ago I participated to [Cyber Apocalypse CTF 2021](https://www.hackthebox.eu/cyber-apocalypse-ctf-2021) which was organized by [hackthebox.eu](https://www.hackthebox.eu/), [cryptohack.org](https://cryptohack.org/) and [code.org](https://code.org/). I mainly focused on Pwn, Reverse and Forensic challenges. Here is the writeup for the [Minefield challenge](https://ctftime.org/task/15714). I will also post the writeup for the [Controller challenge](https://ctftime.org/task/15698) soon
