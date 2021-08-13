@@ -2,7 +2,7 @@
 title: HackTheBox - Arctic
 date: 2021-08-13 20:58:31 +0100
 categories: [Hackthebox walkthroughs, Windows, Easy]
-tags: [htb-windows-easy, writeup, oscp-prep]
+tags: [fmtp, Adobe ColdFusion, FCKeditor, CVE-2009-2265, JSP, msfvenom, meterpreter, shell to meterpreter, multi/handler, suggester, MS10-092, htb-windows-easy, writeup, oscp-prep]
 image: /assets/img/htb/machines/windows/easy/arctic/Arctic.png
 ---
 
@@ -355,3 +355,4 @@ ___
 
 - [SecWiki - windows-kernel-exploits](https://github.com/SecWiki/windows-kernel-exploits)
 - [WindowsExploits by abatchy](https://github.com/abatchy17/WindowsExploits)
+- [Microsoft Security Bulletin MS10-092 - Important Vulnerability in Task Scheduler Could Allow Elevation of Privilege](https://docs.microsoft.com/en-us/security-updates/SecurityBulletins/2010/MS10-092)
