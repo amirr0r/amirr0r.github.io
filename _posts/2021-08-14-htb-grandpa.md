@@ -175,7 +175,6 @@ Unfortunately, all tests failed.
 
 Assembling the pieces together, we can look for exploits using `metasploit`:
 
-
 ![](/assets/img/htb/machines/windows/easy/grandpa/msf.png)
 
 Let's try this exploit on the web server:
