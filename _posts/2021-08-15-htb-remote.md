@@ -3,7 +3,7 @@ title: HackTheBox - Remote
 date: 2021-08-15 20:35:44 +0100
 categories: [Hackthebox walkthroughs, Windows, Easy]
 tags: [NFS, Umbraco, hashcat, password cracking, searchsploit, nishang, powershell, IWR, SERVICE_ALL_ACCESS, BINARY_PATH_NAME, sc.exe, exploiting Windows service, htb-windows-easy, writeup, oscp-prep]
-image: /assets/img/htb/machines/windows/easy/remote/Remote.png
+image: /assets/img/htb/machines/windows/easy/remote/Remote.jpeg
 ---
 
 ## Enumeration
