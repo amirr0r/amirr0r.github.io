@@ -2,7 +2,7 @@
 title: HackTheBox - Forest
 date: 2021-09-06 18:47:54 +0100
 categories: [Hackthebox walkthroughs, Windows, Easy]
-tags: [Alfresco,  Active Directory, Domain Controller, AS-REP Roasting, DCSync, rpcclient, ldapsearch, Anonymous LDAP binds, crackmapexec, Kerberos, kerbrute, Bloodhound, bloodhound-python, SharpHound, impacket, impacket-secretsdump, GetNPUsers.py, John The Ripper, Evil-WinRM, PowerView, smbserver.py, secretsdump.py, Bypass-4MSI, Pass The Hash, psexec.py, Golden Ticket, krbtgt, ntpdate, htb-windows-easy, writeup, oscp-prep]
+tags: [Alfresco,  Active Directory, Domain Controller, AS-REP Roasting, DCSync, rpcclient, ldapsearch, Anonymous LDAP binds, crackmapexec, Kerberos, kerbrute, Bloodhound, bloodhound-python, SharpHound, impacket, impacket-secretsdump, GetNPUsers.py, John The Ripper, Evil-WinRM, PowerView, smbserver.py, secretsdump.py, Bypass-4MSI, Pass The Hash, psexec.py, Golden Ticket, krbtgt, ntpdate, ticketer.py, htb-windows-easy, writeup, oscp-prep]
 image: /assets/img/htb/machines/windows/easy/forest/golden_ticket.jpeg
 pin: true
 ---
