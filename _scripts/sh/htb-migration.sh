@@ -10,6 +10,8 @@ if [ ! -z $VM ] && [ ! -z $OS ] && [ ! -z $LEVEL ]; then
     mkdir -p ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
     # 2. Copy screenshots into img folder
     cp $HTB/machines/$MAJOS/$VM/img/*.png ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
+    cp $HTB/machines/$MAJOS/$VM/img/*.jpeg ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
+    cp $HTB/machines/$MAJOS/$VM/img/*.jpg ~/workspace/amirr0r.github.io/assets/img/htb/machines/$OS/$LEVEL/$LILVM
     # 3. Create WU post
     prefix=`date --rfc-3339=date`;
     wu_file="$HOME/workspace/amirr0r.github.io/_posts/$prefix-htb-$LILVM.md";
