@@ -318,7 +318,7 @@ nadine@SERVMON C:\Temp> cmd /c "echo C:\Windows\Microsoft.NET\Framework\v4.0.303
 
 Go to `Console`, run **shell**, and you'll get this beautiful message: `Meterpreter session 1 opened` 
 
-![](https://i.imgur.com/vRU0Fum.gif?noredirec)
+![](https://i.imgur.com/vRU0Fum.gif)
 
 ![](/assets/img/htb/machines/windows/easy/servmon/system.png)
 
