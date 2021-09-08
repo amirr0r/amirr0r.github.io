@@ -2,7 +2,7 @@
 title: HackTheBox - Legacy
 date: 2021-01-05 17:58:12 +0100
 categories: [Hackthebox walkthroughs, Windows, Easy]
-tags: [htb-windows-easy, samba, MS08-067, CVE-2008-4250, metasploit, meterpreter, writeup, oscp-prep]
+tags: [htb-windows-easy, SMB, MS08-067, CVE-2008-4250, metasploit, meterpreter, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/windows/easy/legacy/Legacy.png
 ---
 
@@ -39,7 +39,7 @@ Host script results:
 |_smb2-time: Protocol negotiation failed (SMB2)
 ```
 
-The target is a **Windows XP** server running **Samba**.
+The target is a **Windows XP** server running **SMB**.
 
 ### smb (ports 139 & 445)
 
