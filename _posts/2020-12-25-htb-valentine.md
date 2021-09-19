@@ -144,7 +144,8 @@ Changing the line 116 allows us to reduce the payload size (0x40 to 0x10):
 We can run the script multiple times via the `-n` option. By doing so, we are able to read target's memory's content:
 
 ![secret](https://amirr0r.github.io/assets/img/htb/machines/linux/easy/valentine/secret.png)
-img
+
+```bash
 $ echo -n aGVhcnRibGVlZGJlbGlldmV0aGVoeXBlCg== | base64 -d
 heartbleedbelievethehype
 ```
