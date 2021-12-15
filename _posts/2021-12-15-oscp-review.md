@@ -144,7 +144,7 @@ Approximately 24 hours after finishing the exam, I received the awaited email te
 
 ![Awaited email](/assets/img/oscp/review/awaited_email.png)
 
-> **Note**: The paper certificate should be delivered within 60 days of passing the PWK exam.
+> **Note**: The paper certificate should be delivered within 60 days after passing the PWK exam.
 
 # 🛣️ What's next?
 
