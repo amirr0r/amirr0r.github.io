@@ -7,4 +7,4 @@ echo "categories: []" >> $post_file;
 echo "tags: []" >> $post_file;
 echo "image: " >> $post_file;
 echo "---" >> $post_file;
-code $post_file;
+# code $post_file;
