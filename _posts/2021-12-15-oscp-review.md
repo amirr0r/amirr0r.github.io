@@ -91,7 +91,7 @@ A week before taking the exam, I felt that I wasn't ready. Finally, I got the OS
 
 I'm 23. At 18, I started to learn about computer science (programing, database management, networks, etc.). I spent a year as a developer in apprenticeship and 3 years as an apprentice cybersecurity engineer focused on embedded systems.
 
-> _Apprenticeship consists in switching between studying in school and working at a company for a short period of time during one or many years. It could be 2 days a week or 1 month at the company and 1 month at school. During school holidays you have to work at the company, you are a real employee.  _
+> _Apprenticeship consists in switching between studying in school and working at a company for a short period of time during one or many years. It could be 2 days a week or 1 month at the company and 1 month at school. During school holidays you have to work at the company, you are a real employee._
 
 ![background-dj.gif](/assets/img/oscp/review/background-dj.gif)
 
