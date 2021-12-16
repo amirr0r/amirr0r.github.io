@@ -43,7 +43,7 @@ A week before taking the exam, I felt that I wasn't ready. Finally, I got the OS
 
 3. Going through **the lab will allow you to approach more advanced concepts than those necessary for the exam**.
     
-    Indeed, the lab contains over 70 machines in different networks. This implies that you have to perform port redirection tunneling, pivoting, lateral movement and so son. Many machines are part of a chain (they have dependencies on each others) so **post-exploitation** **is as important as gaining an initial foothold**. 
+    Indeed, the lab contains over 70 machines in different networks. This implies that you have to perform port redirection, tunneling, pivoting, lateral movement and so son. Many machines are part of a chain (they have dependencies on each others) so **post-exploitation** **is as important as gaining an initial foothold**. 
     
     It's all about <u>developing an intuition and a methodology</u> for the exam and your future security assessments.
     
@@ -79,14 +79,19 @@ A week before taking the exam, I felt that I wasn't ready. Finally, I got the OS
 6. Take effective notes using whatever tool suits you ([Notion](https://www.notion.so/), [Cherry Tree](https://www.giuspen.com/cherrytree/), [Obsidian](https://obsidian.md/), Markdown files in [VScode](https://code.visualstudio.com/) and so on).
 
 7. Write scripts that can automate your enumeration and prepare a skeleton script for the Buffer Overflow machine _(this second advice is no longer valid considering the [2022 exam update](https://www.offensive-security.com/offsec/oscp-exam-structure/))_.
-    - My Tiny Enumeration `Tmux` Organizer Scripts: <https://github.com/amirr0r/TETOS>
+    - My Tiny Enumeration `Tmux` Organizer Scripts (TETOS): <https://github.com/amirr0r/TETOS>
+
+      ![TETOS demo](https://github.com/amirr0r/TETOS/blob/main/TETOS_demo.gif?raw=true)
+
     - My buffer overflow skeleton exploit: <https://github.com/amirr0r/notes/blob/master/Infosec/Pwn/shellcode-stack-buffer-overflow-exploit-skeleton.py>
 
 # 🧑‍🎓 My personal journey
 
 ## 🎒 Background
 
-I'm 23. At 18, I started to learn about computer science (programing, database management, networks, etc.). I spent a year as a developer in apprenticeship and 3 years as an apprentice cybersecurity engineer focused on embedded systems. 
+I'm 23. At 18, I started to learn about computer science (programing, database management, networks, etc.). I spent a year as a developer in apprenticeship and 3 years as an apprentice cybersecurity engineer focused on embedded systems.
+
+> _Apprenticeship consists in switching between studying in school and working at a company for a short period of time during one or many years. It could be 2 days a week or 1 month at the company and 1 month at school. During school holidays you have to work at the company, you are a real employee.  _
 
 ![background-dj.gif](/assets/img/oscp/review/background-dj.gif)
 
@@ -96,7 +101,7 @@ Now that I have the certification I think that I was quite able to pass it sever
 
 1. Before jumping to the OSCP, I went through [a preparation plan](https://amirr0r.github.io/posts/oscp-prep/) to learn about basic enumeration and exploitation as well as file transfer, upgrading shells, Linux and Windows privilege escalation famous methods. As you can see in my blog post *"[How do I prepare for the OSCP?](https://amirr0r.github.io/posts/oscp-prep/)"*, I didn't complete all the things I planed 🤷. It took me several months since I was working and studying at the same time and I wrote write-ups for (almost) all the machines I did from [HacktheBox](https://www.hackthebox.com/), [Vulnhub](https://www.vulnhub.com/) and [Tryhackme](https://tryhackme.com/). 
 
-2. I "really" started on September 10th. In September I compromised about 30-35 machines, did all the Big Four and unlocked the It Department Network. During October, I completed all the course exercises, watched all the videos and I have read the entire PDF even though I was familiar with the most of it because of the [preparation](https://amirr0r.github.io/posts/oscp-prep/). The reason was: I didn't want to miss any small tricks I could benefit from.
+2. I "really" started on September 10th. In September I compromised about 30-35 machines, did all the Big Four and unlocked the IT Department Network. During October, I completed all the course exercises, watched all the videos and I have read the entire PDF even though I was familiar with the most of it because of the [preparation](https://amirr0r.github.io/posts/oscp-prep/). The reason was: I didn't want to miss any small tricks I could benefit from.
 
 3. From the end of October to the beginning of November, I compromised more than 20 machines (including the [5 retired OSCP exam machines](https://www.offensive-security.com/offsec/introduction-of-recently-retired-oscp-exam-machines-in-pwk-labs/)) then I passed the exam.
 
@@ -126,7 +131,7 @@ After that, I left the screen immediately. I went to sleep approximately at 6h30
 
 I used **Notion** to take all my notes while doing the lab and the exam. Previously, I was used to put everything in markdown files, editing them via `vscode` and backup them to Github's private repositories.
 
-In addition to all of its great features, one of the main reason I chose this application is because its faster to copy and paste screenshots from Vmware (via `deepin screenshot`) to a **Notion** web tab.
+In addition to all of its great features, one of the main reason I chose this application is because its faster to copy and paste screenshots from Vmware (via `deepin screenshot`) to a **Notion** web tab. Plus, I could always export my notes as markdown files and / or PDF if I wanted to go back.
 
 By the way, I asked Offsec before doing this. Here is what they respond to me:
 
