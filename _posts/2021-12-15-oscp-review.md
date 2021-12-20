@@ -1,5 +1,5 @@
 ---
-title: Review of my OSCP experience (+ Notion Templates, Cheat Sheet & Enumeration Scripts) 
+title: OSCP Review (Cheat Sheet, Tmux Enumeration Scripts and Notion Templates) 
 date: 2021-12-15 03:44:02 +0100
 categories: [Miscellaneous, Certifications]
 tags: [oscp-prep, oscp]
