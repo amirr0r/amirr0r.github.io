@@ -27,13 +27,16 @@ github:
 linkedin:
   username: amir-barnat
 
+twitter:
+  username: amirr0r_            # change to your twitter username
+
 social:
   name: amirr0r	                  	# it will shows as the copyright owner in Footer
   email: # amirr0r@pm.me              # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/amirr0r_      # change to your twitter homepage
     - https://github.com/amirr0r	 # change to your github homepage
+    - https://twitter.com/amirr0r_ # change to your twitter homepage
     - https://www.linkedin.com/in/amir-barnat/?locale=en_US
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
