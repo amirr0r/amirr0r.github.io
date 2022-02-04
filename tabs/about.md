@@ -10,7 +10,15 @@ What better way to learn about a technology than trying to break/protect it?
 
 Just an eternal apprentice who wants to document and share what he has learned about programming and information security.
 
-Here are some of my online profiles: 
+Here are the certifications I passed:
+
+<p align="center" style="vertical-align: middle; text-align: center;">
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c8986c46-85b3-4c32-b99a-f9039cb961a9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<iframe src="https://api.eu.badgr.io/public/assertions/rAayO2s_QsiiRvwDzMtXsg?embedVersion=1&amp;embedWidth=330&amp;embedHeight=191" style="width: 330px; height: 191px; border: 0px none;" title="Badge: Red Team Operator"></iframe>
+</p>
+
+Some of my online profiles:
 
 | Platform                                                  | Profile                                                                       |
 |:----------------------------------------------------------|------------------------------------------------------------------------------:|
