@@ -29,7 +29,7 @@ The exam involves compromising at least 6 out of 8 machines, in 48 hours which y
 
 ➡️ and the opportunity to use `Cobalt Strike` C2 without breaking the bank 
 
-> I am neither a native speaker nor a security expert. Please do not hesitate to correct me if you think I’m wrong. There is `Disqus` comment section below.
+> I am neither a native speaker nor a security expert. Please do not hesitate to correct me if you think I’m wrong. There is a `Disqus` comment section below.
 
 - [🏴‍☠️ Red team engagement vs Penetration test (Thoughts on real-world threat actors)](#%EF%B8%8F-red-team-engagement-vs-penetration-test-thoughts-on-real-world-threat-actors)
 - [📖 Zero-Point Security - Red Team Ops course](#-zero-point-security---red-team-ops-course)
@@ -198,7 +198,7 @@ I just graduated and didn’t start a job in infosec yet.
 ## ⚗️ Lab
 
 I spent 18 hours in total in the lab, watched every single video, took as many notes as I could. 
-Basically, I rewrote the whole course in my own words and my own way of organizing the notes.
+Basically, I rewrote the whole course in my own words.
 I also built a new cheat sheet with all the concepts, steps and command lines.
 Unfortunately, this time, I will not share it with you cause this would involve me leaking course content.
 
@@ -229,7 +229,7 @@ Nevertheless, I still took the time to do proper enumeration and carry out sever
 
 I think the way I managed to get the fifth and sixth flag was not the intended path. 
 
-The reason why I am saying this is because it wasn’t as elegant as the previous techniques and above all, it had a pretty bad OPSEC. I’m almost sure that that was not the way it was supposed to be done. However, I still managed to compromise the different machines and achieve the objective of the exam. 
+The reason why I am saying this is because it wasn’t as elegant as the previous techniques and above all, it had a pretty bad OPSEC. I’m almost sure that it was not the way it was supposed to be done. However, I still managed to compromise the different machines and achieve the objective of the exam. 
 
 <aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
 💡 <b>TODO</b>: I have to ask RastaMouse about the intended way...
@@ -257,7 +257,7 @@ At 12:59 PM the same day, I received an email from badgr.
     - Besides the fact that I have acquired a lot of technical knowledge throughout this training, I feel that the main lesson of the course is: “**there is always a way**”.
     - I failed the first time because I wasn’t thinking outside the box, I wasn’t enough creative!
 - Most of the things we exploited in the lab were not vulnerabilities (such as *Eternal Blue* or *SambaCry*) but misconfigurations, Kerberos implementation with Microsoft specifics, and features of Active Directory.
-    - For example: the <span style="color:#FFEA00">Golden Ticket</span> technique is not an exploit in itself.
+    - For example: the <span style="color:#FFEA00">Golden Ticket</span> technique is not a vulnerability in itself.
 - Cobalt Strike was so cool to use. I wish I can bring it with me for each challenge/engagements I will face in the future.
     
     I understand why it is a such popular tool. Nevertheless, it remains an expensive tool and I need to familiarize myself with other C2 such as [Covenant](https://github.com/cobbr/Covenant), [PoshC2](https://github.com/nettitude/PoshC2) and much more from the [C2 matrix](https://www.thec2matrix.com/)!
