@@ -1,7 +1,7 @@
 ---
 title: CRTO Review (Certified Red Team Operator) & Notion Templates
 date: 2022-02-03 16:08:49 +0100
-categories: []
+categories: [Miscellaneous, Certifications]
 tags: [CRTO, Cobalt Strike, Red team]
 image: /assets/img/crto/CRTO.png
 pin: true
