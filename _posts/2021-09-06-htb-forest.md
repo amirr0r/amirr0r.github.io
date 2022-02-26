@@ -7,7 +7,7 @@ image: /assets/img/htb/machines/windows/easy/forest/Forest.jpg
 pin: true
 ---
 
-**Forest** in an easy [HackTheBox](https://www.hackthebox.eu/) virtual machine acting as a **Windows Domain Controller** (DC) in which `Exchange Server` has been installed.
+**Forest** is an easy [HackTheBox](https://www.hackthebox.eu/) virtual machine acting as a **Windows Domain Controller** (DC) in which `Exchange Server` has been installed.
 
 **Anonymous LDAP binds** are allowed, which we will use to enumerate domain objects. 
 We will also take advantage of null authentication enabled with `rpcclient` to enumerate usernames.
