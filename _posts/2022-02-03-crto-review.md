@@ -72,7 +72,7 @@ According to Joe Vest and James Tubberville in their (excellent) book “[**Red 
     <u>Example</u>: for reconnaissance, attackers might collect information about the target, identify key individuals and enumerate externally exposed services.
     
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 <p>🥷&nbsp;Broadly speaking, a pentest (penetration test) consists in discovering and <u>exploiting as much vulnerabilities as possible in a single system</u>, network or application in a short period of time (1 or 2 weeks).</p>
 
 <p>The goals are to identify the vulnerabilities before adversaries do, measure the impact/risks associated with the exploitation of these security flaws, and obviously reduce the attack surface.</p>
@@ -82,7 +82,7 @@ According to Joe Vest and James Tubberville in their (excellent) book “[**Red 
 
 <p style="font-size: 0.06rem;"></p>
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 <p><img src="/assets/img/crto/RED_NINJA.webp" alt="/assets/img/crto/RED_NINJA.webp" width="25px" style="left: 1.5%;"/> Whilst in a <span style="color:#FF0000">Red Team</span> engagement, operators emulate a real-world threat and have a clear objective defined by the organization.</p>
 
 <p>The key role of a <span style="color:#FF0000">Red Team</span> is to challenge the <span style="color:#3B88C3">Blue Team</span>: assess tools (AV, IDS, EDR, SIEM...), people and processes (incident response, awareness...). Operators usually work with Threat Intelligence specialists to define a threat profile, a scenario and specific TTPs.</p>
@@ -113,7 +113,7 @@ Contrary to what I thought, real world threat-actors do not necessarily follow t
 
 In reality, they take several steps to get an initial compromise, establish persistence/command and control, evaluate weaknesses, move laterally and perform situational awareness in order to achieve their goals. 
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 ⚠️ &nbsp;As a matter of fact, this is a thing you will notice in the course. Indeed, you’ll realize that you don’t need to rely on aggressive port scans to perform enumeration, move laterally in a network and gain high privileges on your target.
 </aside>
 
@@ -129,7 +129,7 @@ Generally, 1 page = 1 new notion (for example COM Hijacking or "The Printer Bug"
 
 It is presented in such a way that you’ll have a short description of the concept, tools and techniques along with useful command lines and OPSEC consideration notes.
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 ℹ️&nbsp;Operations Security (OPSEC) is a term to <b>describe the "ease" with which actions can be observed by your "enemy"</b>.
 
 In this particular case, opposing sides are attackers (<span style="color:#FF0000">Red Team</span>) and defenders (<span style="color:#3B88C3">Blue Team</span>)
@@ -153,7 +153,7 @@ A Kali and a Windows VM are available (for both the exam and the training lab) t
 
 ![forest.png](/assets/img/crto/forest.png)
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 ⚠️ This implies that there are no VPN connection like for the OSCP and you cannot bring your own tools (except if you do some “magic”) but trust me, everything you need is already here.
 </aside>
 
@@ -231,7 +231,7 @@ I think the way I managed to get the fifth and sixth flag was not the intended p
 
 The reason why I am saying this is because it wasn’t as elegant as the previous techniques and above all, it had a pretty bad OPSEC. I’m almost sure that it was not the way it was supposed to be done. However, I still managed to compromise the different machines and achieve the objective of the exam. 
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 💡 <b>TODO</b>: I have to ask RastaMouse about the intended way...
 </aside>
 
@@ -264,7 +264,7 @@ At 12:59 PM the same day, I received an email from badgr.
 
 - <span style="color:#FF0000">Red</span> cannot exist without <span style="color:#3B88C3">Blue</span>. The goal of an operator is to bring value to the organization.
 
-<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 16px 16px 16px 12px;">
+<aside style="color:white; width: 100%; border-radius: 3px; background: rgb(35, 38, 60) none repeat scroll 0% 0%; padding: 22px 16px 16px 22px;">
 ❓ <b>Are real-world threat actors using zero days or esoteric exploits in their malware/ransomware campaign?</b>
 
 If we take a look at the <a href="https://github.com/silence-is-best/files/blob/main/translate_f.pdf">CONTI Ransomware Gang’s Leaked Hacker’s Manual</a> ⇒ it seems like a procedure that a “non-technical” person could follow more than a documentation to exploit crazy heap-overflow and bypassing ASLR.
