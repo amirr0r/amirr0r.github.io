@@ -34,7 +34,7 @@ jobs:
 
       - name: Bundle Caching
         id: bundle-cache
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ${{ env.GEMS_PATH }}
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
