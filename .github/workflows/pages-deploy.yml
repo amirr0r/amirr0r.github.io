@@ -10,7 +10,7 @@ on:
 
 jobs:
   continuous-delivery:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     env:
       GEMS_PATH: /tmp/bundle
