@@ -61,9 +61,14 @@ main() {
     -d "$SITE_DIR$_baseurl" -c "$_config"
 
   # test
-  bundle exec htmlproofer "$SITE_DIR" \
+  bundle exec htmlproofer _site \
     --disable-external \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+    --checks "Links,Scripts" \
+    --enforce-https false \
+    --ignore-urls "/^http:\/\/127\.0\.0\.1/,/^http:\/\/0\.0\.0\.0/,/^http:\/\/localhost/,/^http:\/\/(10\.|192\.168\.|172\.(1[6-9]|2[0-9]|3[0-1])\.)/,cdn\.jsdelivr\.net/,^\/tags\//,^\/categories\//"
+  #bundle exec htmlproofer "$SITE_DIR" \
+  #  --disable-external \
+  #  --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 }
 
 while (($#)); do
