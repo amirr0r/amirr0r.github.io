@@ -4,6 +4,7 @@ date: 2021-02-07 14:37:03 +0100
 categories: [Hackthebox walkthroughs, Linux, Easy]
 tags: [htb-linux-easy, SSTI, reverse-shell, plain text password, splunk, SplunkWhisperer2, writeup, oscp-prep]
 image: https://amirr0r.github.io/assets/img/htb/machines/linux/easy/doctor/Doctor.png
+render_with_liquid: false
 ---
 
 ## Foothold
