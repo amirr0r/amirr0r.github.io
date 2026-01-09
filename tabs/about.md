@@ -23,14 +23,14 @@ Here are the certifications I passed:
     </div>
 </div>
 
-Some of my online profiles:
+<!-- Some of my online profiles:
 
 | Platform                                                  | Profile                                                                       |
 |:----------------------------------------------------------|------------------------------------------------------------------------------:|
 | [Hack The Box](https://www.hackthebox.eu/profile/31944)   | <script src="https://www.hackthebox.eu/badge/31944"></script>                 |
 | [Try Hack Me](https://tryhackme.com/p/amir0r)             | <script src="https://amirr0r.github.io/assets/js/thm-badge.js"></script>      |
 | [Root-me](https://www.root-me.org/amirr0r)                | <script src="https://amirr0r.github.io/assets/js/rootme-badge.js"></script>   |
-
+-->
 ## What will you find on this blog?
 
 Mostly CTF walkthroughs, maybe some cheat sheets like this [one](https://github.com/amirr0r/notes/blob/master/Infosec/boot2root-cheatsheet.md#boot2root-cheatsheet) and articles talking about technology.
